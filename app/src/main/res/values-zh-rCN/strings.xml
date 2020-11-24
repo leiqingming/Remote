@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">WIFI遥控</string>
+
+    <string name="noLongerTip">不再提醒</string>
+
+    <string name="board_vol">音量</string>
+
+    <string name="wifi_search_devices">搜索</string>
+    <string name="wifi_list_return">返回</string>
+
+    <string name="ble_search_devices">搜索</string>
+    <string name="ble_list_return">返回</string>
+
+    <string name="press_exit_again">再按一次退出</string>
+
+    <string name="connecting">正在尝试重连…</string>
+
+    <string name="connected">连接成功</string>
+
+    <string name="match_devices">与设备配对成功</string>
+
+    <string name="no_match_devices">等待配对设备</string>
+
+    <string name="dialog_lost_connection">\n1.与盒子连接异常。\n\n2.请确保手机与电视盒子处于同一WIFI内。\n\n3.请检查盒子WIFI是否连接，或重启盒子后点击左上角按钮重新尝试连接。</string>
+
+    <string name="lost_connection">连接断开</string>
+
+    <string name="discoverDevices">请点击左上角按钮搜索盒子</string>
+
+    <string name="discovingDevices">正在搜索设备…</string>
+
+    <string name="device_in_connection">与盒子已处于连接状态</string>
+
+    <string name="UseTips">使用提示:</string>
+    <string name="DisconnTips">网络故障:</string>
+
+    <string name="dialogMsg">\n\t\t\t\t\t首次安装时，请点击左上角按钮，搜索并连接盒子。
+    </string>
+
+    <string name="ble_dialogMsg">\n1、请在盒子开机后一段时间内，\n按左上角按钮搜索并配对设备。\n
+    </string>
+
+    <string name="GotIt">知道了</string>
+
+    <string name="BLE_TEST_TIPS">蓝牙配对需在盒子开机时完成\n\t\t\t\t\t\t\t按键效果待完善</string>
+
+    <string name="mouse_keyBorad">鼠标 键盘</string>
+    
+    <string name="touch_pad">滑动控制方向，单按点击。</string>
+
+    <string name="left_click">点击</string>
+
+    <string name="right_click">右击</string>
+
+    <string name="keepSameWifi">请保持电视盒子与手机处于同一WIFI内</string>
+
+    <string name="keepWifiConn">请保持WIFI处于连接状态</string>
+
+    <string name="BLE_Not_Enabled">请打开蓝牙开关</string>
+
+    <string name="NOT_Support_BLE">本机不支持低功耗蓝牙</string>
+
+    <string name="Not_support_Bluetooth">本机不支持经典蓝牙</string>
+    
+    <string name="Not_localtion_permissions">App没有位置权限将无法搜索蓝牙设备</string>
+
+    <string name="send_char">发送</string>
+
+    <string name="send_ret">返回</string>
+
+    <string name="Swtich_Chinese_tips">中文输入模式</string>
+
+    <string name="Swtich_English_tips">英文输入模式</string>
+
+    <string name="motion_return">返回</string>
+
+    <string name="motion_page_up">上翻页</string>
+    <string name="motion_page_down">下翻页</string>
+
+    <string name="Search">搜索</string>
+
+    <string name="theme_title">主题</string>
+
+    <string name="long_text">长文本</string>
+
+    <!-- tab llong_ayout -->
+
+    <string name="tab_General">常规</string>
+    <string name="tab_Mouse">鼠标</string>
+    <string name="tab_Keyboard">键盘</string>
+
+
+</resources>

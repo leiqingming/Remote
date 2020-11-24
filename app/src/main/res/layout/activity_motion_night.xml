@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MotionFullScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@color/colorDackBg"
+    android:orientation="vertical"
+    >
+    <!---->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+
+        >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/motion_top_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+
+            >
+
+            <com.hxws.remote.Common.RCButton
+                android:id="@+id/button_mute"
+                android:layout_width="@dimen/login_button_width"
+                android:layout_height="@dimen/login_button_height"
+
+                android:layout_marginStart="@dimen/motion_top_btn_Edge"
+
+                android:background="@drawable/rc_button_mute_night"
+
+                app:BleBtnkeyCode="0xBC434040"
+                app:WifiBtnkeyCode="164" />
+
+            <ImageView
+                android:layout_width="@dimen/motion_vol_width"
+                android:layout_height="@dimen/motion_vol_height"
+
+                android:layout_centerInParent="true"
+
+                android:background="@drawable/motion_vol_night" />
+
+            <com.hxws.remote.Common.RCButton
+
+                android:id="@+id/button_vol_minus"
+                android:layout_width="@dimen/motion_vol_plus_minus_width"
+                android:layout_height="@dimen/motion_vol_plus_minus_height"
+
+                android:layout_centerVertical="true"
+
+                android:layout_toStartOf="@+id/vol_plus_minus"
+
+                android:background="@drawable/rc_button_motion_vol_minus_night"
+
+                app:BleBtnkeyCode="0xE31C4040"
+                app:WifiBtnkeyCode="25" />
+
+            <RelativeLayout
+                android:id="@+id/vol_plus_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                >
+
+            </RelativeLayout>
+
+            <com.hxws.remote.Common.RCButton
+
+                android:id="@+id/button_vol_plus"
+                android:layout_width="@dimen/motion_vol_plus_minus_width"
+                android:layout_height="@dimen/motion_vol_plus_minus_height"
+
+                android:layout_centerVertical="true"
+
+                android:layout_toEndOf="@+id/vol_plus_minus"
+
+                android:background="@drawable/rc_button_motion_vol_plus_night"
+
+                app:BleBtnkeyCode="0xEA154040"
+                app:WifiBtnkeyCode="24" />
+
+
+
+            <com.hxws.remote.Common.RCButton
+
+                android:id="@+id/button_web"
+                android:layout_width="@dimen/login_button_width"
+                android:layout_height="@dimen/login_button_height"
+
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginEnd="@dimen/motion_top_btn_Edge"
+
+                android:background="@drawable/rc_button_web_night"
+
+                app:BleBtnkeyCode="0xA8574040"
+                app:WifiBtnkeyCode="1224" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/motion_dirction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/motion_top_widget"
+
+            android:layout_marginTop="@dimen/motion_interval_top"
+
+            >
+
+            <com.hxws.remote.Common.RCButton
+                android:id="@+id/motion_button_home"
+                android:layout_width="@dimen/motion_direc_width"
+                android:layout_height="@dimen/motion_direc_height"
+
+                android:layout_centerVertical="true"
+
+                android:layout_toStartOf="@+id/bet_home_web"
+
+                android:background="@drawable/rc_button_motion_left_night"
+
+                app:WifiBtnkeyCode="21"
+                />
+
+            <com.hxws.remote.Common.RCButton
+
+                android:id="@+id/motion_button_web"
+                android:layout_width="@dimen/motion_direc_width"
+                android:layout_height="@dimen/motion_direc_height"
+
+                android:layout_toEndOf="@+id/bet_home_web"
+
+                android:layout_centerVertical="true"
+
+                android:background="@drawable/rc_button_motion_right_night"
+
+                app:WifiBtnkeyCode="22" />
+
+
+
+            <LinearLayout
+                android:id="@+id/bet_home_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+
+
+
+                android:orientation="vertical"
+                >
+
+                <com.hxws.remote.Common.RCButton
+
+                    android:id="@+id/motion_button_up"
+                    android:layout_width="@dimen/motion_direc_width"
+                    android:layout_height="@dimen/motion_direc_height"
+
+                    android:background="@drawable/rc_button_motion_up_night"
+
+                    app:WifiBtnkeyCode="19" />
+
+                <com.hxws.remote.Common.RCButton
+
+                    android:id="@+id/motion_button_down"
+                    android:layout_width="@dimen/motion_direc_width"
+                    android:layout_height="@dimen/motion_direc_height"
+
+
+                    android:layout_marginTop="15dp"
+
+                    android:background="@drawable/rc_button_motion_down_night"
+
+                    app:WifiBtnkeyCode="20" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:id="@+id/fullP_touch"
+            android:layout_width="@dimen/motion_touch_area_width"
+            android:layout_height="@dimen/motion_touch_area_height"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="@dimen/motion_interval"
+
+            android:background="@drawable/motion_touch_night"
+
+            android:layout_below="@+id/motion_dirction"
+
+            android:orientation="horizontal">
+            <!--            android:gravity="center"-->
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+
+                android:text="@string/touch_pad"
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_below="@+id/fullP_touch"
+
+            android:layout_marginTop="@dimen/motion_interval_top"
+            >
+
+            <Button
+                android:id="@+id/motion_button_click"
+                android:layout_width="@dimen/motion_click_ret_width"
+                android:layout_height="@dimen/motion_click_ret_height"
+
+                android:layout_centerVertical="true"
+
+                android:layout_toStartOf="@+id/bet_click_ret"
+
+                android:background="@drawable/rc_button_motion_click_night"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/bet_click_ret"
+                android:layout_width="1dp"
+                android:layout_height="53dp"
+
+                android:layout_centerInParent="true"
+                >
+            </RelativeLayout>
+
+            <com.hxws.remote.Common.RCButton
+
+                android:id="@+id/motion_button_return"
+                android:layout_width="@dimen/motion_click_ret_width"
+                android:layout_height="@dimen/motion_click_ret_height"
+
+
+                android:layout_centerVertical="true"
+
+                android:layout_toEndOf="@+id/bet_click_ret"
+
+                android:background="@drawable/rc_button_motion_return_night"
+
+                app:WifiBtnkeyCode="4" />
+
+
+        </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+
+<!--            android:background="@color/colorDackBg"-->
+
+<!--            android:orientation="vertical"-->
+<!--            tools:ignore="ObsoleteLayoutParam">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                >-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/EdText_input"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+
+<!--                    android:imeOptions="flagNoExtractUi"-->
+
+<!--                    android:focusable="true"-->
+<!--                    android:focusableInTouchMode="true"-->
+
+
+<!--                    android:textSize="17sp"-->
+
+<!--                    android:visibility="invisible"-->
+
+<!--                    >-->
+<!--                </EditText>-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/EdText_output"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="40dp"-->
+
+<!--                    android:layout_weight="0"-->
+
+<!--                    android:text="@string/send_char"-->
+<!--                    android:visibility="invisible"-->
+<!--                    >-->
+
+<!--                </Button>-->
+<!--                <Button-->
+<!--                    android:id="@+id/EdMode_shift"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="40dp"-->
+
+<!--                    android:layout_weight="0"-->
+<!--                    android:text="@string/send_Swtich"-->
+<!--                    android:visibility="visible"-->
+<!--                    >-->
+
+<!--                </Button>-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <android.inputmethodservice.KeyboardView-->
+<!--                android:id="@+id/keyboard_view"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentBottom="true"-->
+
+<!--                android:focusable="true"-->
+<!--                android:focusableInTouchMode="true"-->
+
+<!--                android:keyTextColor="@color/white"-->
+<!--                android:visibility="invisible"-->
+
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+    <!--
+android:keyBackground="@color/colorDackBg"
+        android:background="@color/colorDackBg"
+
+    -->
+
+</LinearLayout>

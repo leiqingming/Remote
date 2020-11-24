@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_centerVertical="true"
+
+    android:background="@color/colorDackBg"
+    android:orientation="vertical">
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="@dimen/topBar_height"-->
+
+<!--        android:orientation="horizontal">-->
+<!--        &lt;!&ndash;        android:background="@color/colorTitle_night"&ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/menu_drawer"-->
+<!--            android:layout_width="@dimen/topBar_widget_width"-->
+<!--            android:layout_height="@dimen/topBar_widget_height"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginStart="@dimen/top_widget_marginEdge"-->
+
+<!--            android:background="@drawable/menu_drawer_night" />-->
+
+<!--        &lt;!&ndash;ImageView-->
+<!--            android:id="@+id/WifiDevDiscover"-->
+<!--            android:layout_width="@dimen/topBar_widget_width"-->
+<!--            android:layout_height="@dimen/topBar_widget_height"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginStart="60dp"-->
+<!--            android:background="@drawable/search_night"-->
+<!--            android:padding="0dp" /&ndash;&gt;-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/chooseMode"-->
+<!--            android:layout_width="@dimen/topBar_centre_width"-->
+<!--            android:layout_height="@dimen/topBar_centre_height"-->
+
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_centerVertical="true"-->
+
+<!--            android:background="@drawable/wifi"-->
+<!--            android:padding="0dp" />-->
+
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_popup_menu"-->
+
+<!--            android:layout_width="@dimen/topBar_widget_width"-->
+<!--            android:layout_height="@dimen/topBar_widget_height"-->
+
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_centerVertical="true"-->
+
+<!--            android:layout_marginEnd="@dimen/top_widget_marginEdge"-->
+
+<!--            android:background="@drawable/popup_menu_night"-->
+<!--            />-->
+
+<!--    </RelativeLayout>-->
+
+    <!--RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:background="@color/colorTitle"
+        android:layout_alignParentBottom="true"
+        >
+
+    </RelativeLayout-->
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/login_vol_width"
+            android:layout_height="@dimen/login_vol_height"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="@dimen/area_vol_top"
+            android:background="@drawable/vol_night" />
+
+        <!--TextView
+            android:id="@+id/TextDpi"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:gravity="center"
+            android:textSize="18sp" /-->
+
+        <com.hxws.remote.Common.DirectionButton
+
+            android:id="@+id/Circle_button"
+
+            android:layout_width="@dimen/login_DirectionButton_width"
+            android:layout_height="@dimen/login_DirectionButton_height"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/direction_top"
+
+            android:background="@drawable/circle_ok_night"
+
+            app:BleDctBtnKeyCodes="0xF20D4040,0xEF104040,0xEE114040,0xF40B4040,0xF10E4040"
+            app:WifiDctBtnKeyCodes="23,21,22,19,20,-1000000" />
+
+        <com.hxws.remote.Common.RCButton
+            android:id="@+id/button_power"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+
+            android:layout_marginStart="@dimen/login_marginEdge"
+
+            android:layout_marginTop="@dimen/first_top"
+
+            android:background="@drawable/rc_button_power_night"
+
+            app:BleBtnkeyCode="0xB24D4040"
+            app:WifiBtnkeyCode="26" />
+
+
+        <com.hxws.remote.Common.RCButton
+            android:id="@+id/button_mute"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+
+            android:layout_marginTop="@dimen/first_top"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/login_marginEdge"
+
+
+            android:background="@drawable/rc_button_mute_night"
+
+            app:BleBtnkeyCode="0xBC434040"
+            app:WifiBtnkeyCode="164" />
+
+        <com.hxws.remote.Common.RCButton
+            android:id="@+id/button_setting"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_alignLeft="@id/button_power"
+
+            android:layout_alignTop="@id/button_power"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="@dimen/btn_between"
+
+            android:background="@drawable/rc_button_setting_night"
+
+            app:BleBtnkeyCode="0xF00F4040"
+            app:WifiBtnkeyCode="176" />
+
+        <!--Button
+
+            android:layout_width="@dimen/login_vol_plus_width"
+            android:layout_height="@dimen/login_vol_plus_height"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="@dimen/logo_vol_top"
+            android:background="@null"
+            android:text="@string/board_vol"
+
+
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+
+            /-->
+
+        <!--com.hxws.remote.Common.RCButton
+            android:id="@+id/button_delete"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+
+            android:layout_alignTop="@id/button_mute"
+            android:layout_alignRight="@id/button_mute"
+
+
+            android:layout_marginTop="@dimen/btn_between"
+            android:layout_marginRight="0dp"
+
+            android:background="@drawable/rc_button_delete_night"
+
+            app:BleBtnkeyCode="0xF30C4040"
+            app:WifiBtnkeyCode="67" /-->
+
+        <com.hxws.remote.Common.RCButton
+
+            android:id="@+id/button_vol_plus"
+            android:layout_width="@dimen/login_vol_plus_width_night"
+            android:layout_height="@dimen/login_vol_plus_height_night"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="@dimen/btn_vol_plus_top"
+            android:background="@drawable/rc_button_vol_plus_night"
+
+            app:BleBtnkeyCode="0xEA154040"
+            app:WifiBtnkeyCode="24" />
+
+        <com.hxws.remote.Common.RCButton
+
+            android:id="@+id/button_vol_minus"
+            android:layout_width="@dimen/login_vol_plus_width_night"
+            android:layout_height="@dimen/login_vol_plus_height_night"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/btn_vol_minus_top"
+            android:background="@drawable/rc_button_vol_minus_night"
+
+            app:BleBtnkeyCode="0xE31C4040"
+            app:WifiBtnkeyCode="25" />
+
+        <com.hxws.remote.Common.RCButton
+            android:id="@+id/button_app"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_alignLeft="@id/button_setting"
+            android:layout_alignTop="@id/button_setting"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="@dimen/btn_between"
+            android:background="@drawable/rc_button_app_night"
+
+            app:BleBtnkeyCode="0xAB544040"
+            app:WifiBtnkeyCode="1225" />
+
+        <com.hxws.remote.Common.RCButton
+            android:id="@+id/button_web"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+
+            android:layout_alignLeft="@id/button_mute"
+            android:layout_alignTop="@id/button_mute"
+
+            android:layout_marginTop="@dimen/btn_between"
+            android:layout_marginRight="0dp"
+
+            android:background="@drawable/rc_button_web_night"
+
+            app:BleBtnkeyCode="0xA8574040"
+            app:WifiBtnkeyCode="1224" />
+
+        <com.hxws.remote.Common.RCButton
+
+            android:id="@+id/button_menu"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_alignLeft="@id/button_app"
+            android:layout_alignTop="@id/button_app"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="@dimen/btn_end_Top"
+
+            android:background="@drawable/rc_button_menu_night"
+
+            app:BleBtnkeyCode="0xBA454040"
+            app:WifiBtnkeyCode="82" />
+
+        <com.hxws.remote.Common.RCButton
+
+            android:id="@+id/button_home"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+
+            android:layout_alignLeft="@id/button_web"
+
+
+            android:layout_alignTop="@id/button_web"
+            android:layout_marginTop="@dimen/btn_between"
+
+            android:background="@drawable/rc_button_home_night"
+
+            app:BleBtnkeyCode="0xE51A4040"
+            app:WifiBtnkeyCode="3" />
+
+
+        <!--com.hxws.remote.Common.RCButton
+
+            android:id="@+id/button_mouse"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_alignLeft="@id/button_menu"
+            android:layout_alignTop="@id/button_menu"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="@dimen/btn_end_Top"
+
+            android:background="@drawable/rc_button_mouse_night"
+
+            app:BleBtnkeyCode="0xBB444040" /-->
+        <!--app:WifiBtnkeyCode="10009" app:BleBtnkeyCode="0xBB444040"-->
+
+        <com.hxws.remote.Common.RCButton
+
+            android:id="@+id/button_return"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="@dimen/login_button_height"
+
+            android:layout_alignLeft="@id/button_home"
+
+            android:layout_alignTop="@id/button_home"
+            android:layout_marginTop="@dimen/btn_end_Top"
+            android:layout_marginRight="0dp"
+
+            android:background="@drawable/rc_button_ret_night"
+
+            app:BleBtnkeyCode="0xBD424040"
+            app:WifiBtnkeyCode="4" />
+
+
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+        <item
+            android:id="@+id/nav_action_1"
+            android:icon="@drawable/search_devices"
+
+            android:title="@string/Search"
+
+            app:showAsAction="never"
+            />
+<!--    <group>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_action_2"-->
+<!--            android:icon="@drawable/theme_icon"-->
+
+<!--            android:title="@string/theme_title"-->
+
+<!--            app:showAsAction="never"-->
+<!--            />-->
+
+<!--    </group>-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_action_3"-->
+<!--        android:icon="@mipmap/ic_launcher"-->
+<!--        android:title="暂未定义" />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_action_4"-->
+<!--        android:icon="@mipmap/ic_launcher"-->
+<!--        android:title="暂未定义" />-->
+
+</menu>

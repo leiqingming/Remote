@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/black"
+    android:background="@color/white"
+
+    android:gravity="center"
+
+    android:layout_centerInParent="true"
+
+    android:maxHeight="40dp"
+    android:maxWidth="40dp"
+
+    android:minHeight="0dip"
+    android:minWidth="0dip"
+    android:textSize="@dimen/sp_30"
+    />

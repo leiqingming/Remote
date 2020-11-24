@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WifiRCButton">
+        <attr name="WifiBtnkeyCode" format="integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="WifiDirectionButton">
+
+        <attr name="WifiDctBtnKeyCodes" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="BleRCButton">
+        <attr name="BleBtnkeyCode" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="BleDirectionButton">
+
+        <attr name="BleDctBtnKeyCodes" format="string" />
+
+    </declare-styleable>
+
+
+    <attr name="rightPadding" format="dimension" />
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" />
+    </declare-styleable>
+
+
+</resources>

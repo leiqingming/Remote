@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">WIFI REMOTE</string>
+
+    <string name="noLongerTip">Don\'t show this again</string>
+
+    <string name="board_vol">vol</string>
+
+    <string name="wifi_search_devices">Search</string>
+
+    <string name="wifi_list_return">Return</string>
+
+    <string name="ble_search_devices">Search</string>
+
+    <string name="ble_list_return">Return</string>
+
+    <string name="UseTips">Tips:</string>
+    <string name="DisconnTips">NetWork:</string>
+
+    <string name="press_exit_again">Press again to exit</string>
+
+    <string name="connecting">Attempting to reconnect…</string>
+    
+    <string name="keepSameWifi">Please keep your device on the same WIFI as your phone.</string>
+
+    <string name="connected">Connected</string>
+
+    <string name="match_devices">Matched</string>
+
+    <string name="no_match_devices">Unpaired equipment</string>
+
+    <string name="dialog_lost_connection">1.Lost Connection.\n\n2.Make sure your phone and TV box are in the same WIFI area.\n\n3.Please check whether the box WIFI is connected or restart the box and click the button in the upper left corner to try again.</string>
+
+    <string name="lost_connection">Lost Connection</string>
+
+    <string name="device_in_connection">Device in connection</string>
+
+    <string name="discoverDevices">Click the top left button to connect to the server.</string>
+
+    <string name="discovingDevices">Searching device…</string>
+
+    <string name="BLE_TEST_TIPS">Bluetooth mode current bit test version</string>
+
+    <string name="dialogMsg">\n\t\t\t\tAt first installation, please click \nthe top left button to search and connect to the device.</string>
+
+
+    <string name="ble_dialogMsg">\n1.Press the upper left button to pair the device within a period of time after the device is turned on.</string>
+
+    <string name="GotIt">Got It!</string>
+
+    <string name="left_click">click</string>
+    <string name="right_click">Right click</string>
+
+    <!--Ble-->
+
+    <string name="mouse_keyBorad">Mouse KeyBoard</string>
+
+    <string name="touch_pad">Slide to control direction,\nSingle click to confirm.</string>
+
+    <string name="keepWifiConn">Please keep WIFI connected</string>
+
+    <string name="BLE_Not_Enabled">BLE Not Enabled</string>
+
+    <string name="NOT_Support_BLE">This device do not support BLE</string>
+
+    <string name="Not_support_Bluetooth">This device do not support Bluetooth</string>
+
+    <string name="Not_localtion_permissions">App does not have location permissions will not be able to search Bluetooth devices</string>
+
+    <!--send chinese-->
+    <string name="send_char">send</string>
+
+    <string name="send_ret">return</string>
+
+    <string name="Swtich_Chinese_tips">Current Chinese input mode</string>
+
+    <string name="Swtich_English_tips">Current English input mode</string>
+
+    <string name="motion_return">return</string>
+
+    <string name="motion_page_up">up</string>
+
+    <string name="motion_page_down">down</string>
+
+    <string name="Search">Search</string>
+
+    <string name="theme_title">Theme</string>
+
+    <string name="long_text">Long Text</string>
+
+    <!-- tab layout -->
+
+    <string name="tab_General">General</string>
+    <string name="tab_Mouse">Mouse</string>
+    <string name="tab_Keyboard">Keyboard</string>
+
+
+</resources>

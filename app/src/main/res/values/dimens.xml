@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="centre_height">500dp</dimen>
+
+    <!-- 导航栏高度 -->
+    <dimen name="topBar_height">60dp</dimen>
+
+    <dimen name="topBar_widget_height">25dp</dimen>
+    <dimen name="topBar_widget_width">25dp</dimen>
+
+    <!-- 控件离边缘距离-->
+    <dimen name="top_widget_marginEdge">30dp</dimen>
+
+    <dimen name="motion_topBar_widget_height">30dp</dimen>
+    <dimen name="motion_topBar_widget_width">30dp</dimen>
+
+    <dimen name="topBar_centre_height">35dp</dimen>
+    <dimen name="topBar_centre_width">35dp</dimen>
+
+    <!-- 第一个按钮距顶高度-->
+    <dimen name="first_top">0dp</dimen>
+    <dimen name="first_top_2340x1080">100dp</dimen>
+
+    <dimen name="first_top_land">40dp</dimen>
+
+    <dimen name="motion_first_top">40dp</dimen>
+
+    <!-- between -->
+    <dimen name="btn_between">100dp</dimen>
+    <dimen name="btn_end_Top">225dp</dimen>
+    <dimen name="login_Top250">230dp</dimen>
+    
+    <dimen name="between_top">110dp</dimen>
+
+    <dimen name="login_marginEdge">20dp</dimen>
+
+    <dimen name="motion_top_btn_Edge">25dp</dimen>
+
+    <dimen name="login_marginLeft_2560_1440">30dp</dimen>
+    <dimen name="login_marginRight_2560_1440">30dp</dimen>
+
+    <dimen name="login_button_width">56dp</dimen>
+    <dimen name="login_button_height">56dp</dimen>
+
+    <dimen name="login_button_width_2560x1440">48dp</dimen>
+    <dimen name="login_button_height_2560x1440">48dp</dimen>
+
+    <dimen name="login_DirectionButton_width">175dp</dimen>
+    <dimen name="login_DirectionButton_height">175dp</dimen>
+    <!-- direction按钮距顶高度-->
+    <dimen name="direction_top">265dp</dimen>
+    <dimen name="direction_top_2340x1080">390dp</dimen>
+
+
+    <!-- login_vol -->
+    <dimen name="login_vol_width">60dp</dimen>
+    <dimen name="login_vol_height">175dp</dimen>
+
+    <!-- login_vol_plus -->
+    <dimen name="login_vol_plus_width">70dp</dimen>
+    <dimen name="login_vol_plus_height">100dp</dimen>
+
+    <!-- login_vol_minus -->
+    <dimen name="login_vol_minus_width">70dp</dimen>
+    <dimen name="login_vol_minus_height">100dp</dimen>
+
+    <!--音量区域-->
+    <dimen name="area_vol_top">40dp</dimen>
+    <dimen name="btn_vol_minus_top">120dp</dimen>
+    <dimen name="btn_vol_plus_top">32dp</dimen>
+
+    <dimen name="area_vol_top_2340x1080">120dp</dimen>
+    <dimen name="btn_vol_minus_top_2340x1080">200dp</dimen>
+    <dimen name="btn_vol_plus_top_2340x1080">110dp</dimen>
+
+    <!-- login_vol_plus - night-->
+    <dimen name="login_vol_plus_width_night">80dp</dimen>
+    <dimen name="login_vol_plus_height_night">107dp</dimen>
+
+    <!-- login_vol_minus -->
+    <dimen name="login_vol_minus_width_night">70dp</dimen>
+    <dimen name="login_vol_minus_height_night">100dp</dimen>
+
+
+    <!-- motion -->
+
+    <dimen name="motion_textView_height">30dp</dimen>
+
+    <dimen name="motion_full_touch_top">80dp</dimen>
+    <dimen name="motion_full_touch_top_land">90dp</dimen>
+
+    <dimen name="motion_touch_area_width">340dp</dimen>
+    <dimen name="motion_touch_area_height">220dp</dimen>
+
+    <dimen name="motion_vol_plus_minus_width">80dp</dimen>
+    <dimen name="motion_vol_plus_minus_height">56dp</dimen>
+
+    <dimen name="motion_direc_width">88dp</dimen>
+    <dimen name="motion_direc_height">48dp</dimen>
+
+    <dimen name="motion_interval_top">10dp</dimen>
+
+    <dimen name="motion_interval">20dp</dimen>
+
+    <dimen name="motion_vol_width">150dp</dimen>
+    <dimen name="motion_vol_height">46dp</dimen>
+
+    <dimen name="motion_click_ret_width">168dp</dimen>
+    <dimen name="motion_click_ret_height">52dp</dimen>
+
+    <!-- send text page -->
+
+    <dimen name="below_RL_ED_INPUT">30dp</dimen>
+
+    <dimen name="EdText_input_width">300dp</dimen>
+
+    <dimen name="bet_delete_send_width">10dp</dimen>
+
+    <dimen name="send_btn_width">124dp</dimen>
+    <dimen name="send_btn_height">49dp</dimen>
+
+
+    <!-- motion 底部控制中心屏幕高度 -->
+
+    <dimen name="motion_centre_height">500dp</dimen>
+
+
+
+
+    <!-- motion 横屏-->
+
+    <dimen name="motion_topBar_height">40dp</dimen>
+
+    <dimen name="motion_topBar_widget_width_land">25dp</dimen>
+    <dimen name="motion_topBar_widget_height_land">25dp</dimen>
+
+    <dimen name="topBar_centre_height_land">30dp</dimen>
+
+    <!-- font size,you can add if there is no one -->
+
+    <dimen name="sp_6">6sp</dimen>
+
+    <dimen name="sp_7">7sp</dimen>
+
+    <dimen name="sp_8">8sp</dimen>
+
+    <dimen name="sp_9">9sp</dimen>
+
+    <dimen name="sp_10">10sp</dimen>
+
+    <dimen name="sp_11">11sp</dimen>
+
+    <dimen name="sp_12">12sp</dimen>
+
+    <dimen name="sp_13">13sp</dimen>
+
+    <dimen name="sp_14">14sp</dimen>
+
+    <dimen name="sp_15">15sp</dimen>
+
+    <dimen name="sp_16">16sp</dimen>
+
+    <dimen name="sp_17">17sp</dimen>
+
+    <dimen name="sp_18">18sp</dimen>
+
+    <dimen name="sp_19">19sp</dimen>
+
+    <dimen name="sp_20">20sp</dimen>
+
+    <dimen name="sp_21">21sp</dimen>
+
+    <dimen name="sp_22">22sp</dimen>
+
+    <dimen name="sp_23">23sp</dimen>
+
+    <dimen name="sp_24">24sp</dimen>
+
+    <dimen name="sp_25">25sp</dimen>
+
+    <dimen name="sp_28">28sp</dimen>
+
+    <dimen name="sp_30">30sp</dimen>
+
+    <dimen name="sp_32">32sp</dimen>
+
+    <dimen name="sp_34">34sp</dimen>
+
+    <dimen name="sp_36">36sp</dimen>
+
+    <dimen name="sp_38">38sp</dimen>
+
+    <dimen name="sp_40">40sp</dimen>
+
+    <dimen name="sp_42">42sp</dimen>
+
+    <dimen name="sp_48">48sp</dimen>
+
+
+
+</resources>

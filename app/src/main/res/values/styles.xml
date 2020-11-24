@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme">
+
+
+    </style>
+
+    <!--popupMenu-->
+    <style name="mainStyle" parent="AppTheme">
+        <item name="android:popupMenuStyle">@style/popmenuStyle</item>
+        <item name="android:dropDownListViewStyle">@style/popmenuDivier</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/popmeuText</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/popmeuText</item>
+
+    </style>    <!--popMenu的Style-->
+    <style name="popmenuStyle" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/black</item><!-- popMenu的背景色-->
+    </style>
+
+    <!--popmenu的字体颜色-->
+    <style name="popmeuText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--popMenu分割线的颜色-->
+    <style name="popmenuDivier">
+        <item name="android:divider">@color/blueSky</item>
+        <item name="android:dividerHeight">2sp</item>
+    </style>
+
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="SplashDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--编辑框灰色样式-->
+    <style name="SendEditText_gray" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@android:color/darker_gray</item>
+    </style>
+
+    <!--编辑框白色样式-->
+    <style name="SendEditText_white" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+    <!-- 自定义tabLayout 字体样式 -->
+    <style name="MyTabLayoutTextAppearanceNight" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearanceInverse" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+
+
+</resources>

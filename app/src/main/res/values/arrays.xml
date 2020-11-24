@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_string">
+
+        <item>@string/tab_General</item>
+
+        <item>@string/tab_Mouse</item>
+
+        <item>@string/tab_Keyboard</item>
+
+    </array>
+
+
+</resources>
